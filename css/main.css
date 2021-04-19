@@ -1,5 +1,5 @@
 .topnav a {
-    color: black;
+    color: #666666;
     margin-right: 100px;
     float: right;
     padding: 0px -40px;
@@ -8,7 +8,7 @@
     font-family: "Avenir";   
 }
 .topnav a:hover {
-    color: #666666; 
+    color: black; 
 }
 
 h1{
@@ -20,7 +20,7 @@ h1{
 }
 
  a {
-    color: #666666;
+    color: black;
     cursor:pointer;
     text-decoration: none;
   }
@@ -28,7 +28,7 @@ h1{
 h3{
     font-family: 'Avenir';
     padding: 0px 100px;
-    color:#ffa185;
+    color:#000;
     display: flex;
 }
 
