@@ -1,3 +1,12 @@
+p {
+  font-family: "Avenir";
+  font-size: 16px;
+  max-width: 48em;
+  padding: 0 auto;
+  margin: 0 auto;
+  margin-top: 10em;
+}
+
 .topnav a {
     color: #666666;
     margin-right: 100px;
