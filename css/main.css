@@ -130,3 +130,7 @@ h3{
   background: #666666;
   color: white;
 }
+
+profile {
+  border-radius: 50%;
+}
