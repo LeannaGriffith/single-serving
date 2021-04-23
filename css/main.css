@@ -1,12 +1,31 @@
 p {
   font-family: "Avenir";
   font-size: 16px;
-  max-width: 48em;
-  padding: 0 auto;
-  margin: 0 auto;
+  max-width: 55em;
   margin-top: 10em;
   margin-bottom: 20em;
   line-height: 1.6em; 
+  display: block;
+  margin-block-start: 7em;
+  margin-block-end: 1em;
+  margin-inline-start: 250px;
+  margin-inline-end: 0px;
+}
+
+#profile {
+  border-radius: 50%;
+  float: right;
+  width: 20%;
+  margin-left: 20rem;
+
+}
+
+.figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 
 .topnav a {
@@ -131,6 +150,4 @@ h3{
   color: white;
 }
 
-profile {
-  border-radius: 50%;
-}
+
