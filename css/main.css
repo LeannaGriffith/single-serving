@@ -119,11 +119,3 @@ h3{
   background: #999999;
   color: white;
 }
-
-@media screen and (max-width:767px) {
-[data-section-id="5eca911272e6a72aacf7a277"] figcaption.image-caption-wrapper {
-    opacity: 1 !important;
-    visibility: visible !important;
-    overflow: hidden;
-}
-}
