@@ -16,17 +16,10 @@ p {
   border-radius: 50%;
   float: right;
   width: 20%;
-  margin-left: 20rem;
-
+  margin-left: 0rem;
+  margin-top: -5rem;
 }
 
-.figure {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
 
 .topnav a {
     color: #666666;
@@ -149,5 +142,3 @@ h3{
   background: #666666;
   color: white;
 }
-
-
