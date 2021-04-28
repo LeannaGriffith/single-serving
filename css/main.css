@@ -1,52 +1,67 @@
+body {
+  max-width: 100rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
 p {
   font-family: "Avenir";
   font-size: 16px;
   max-width: 55em;
   padding: 0 5%;
   margin: 0 auto;
-  margin-top: 10em;
+  margin-top: 7em;
   margin-bottom: 20em;
-  line-height: 1.7em; 
+  line-height: 1.7em;
   display: block;
 }
 
-.topnav a {
-    color: #666666;
-    margin-right: 100px;
-    float: right;
-    padding: 0px -40px;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Avenir";
-}
-.topnav a:hover {
-    color: black;
+/* Navigation */
+
+nav {
+  margin-right: -5rem;
 }
 
-h1{
-    margin-top: 50px;
+nav ul {
+  text-align: right;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  color: #666666;
+  margin-right: 100px;;
+  padding: 0px -40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Avenir";
+}
+
+nav a:hover {
+  color: black;
+}
+
+h1 {
+    margin-top: 3em;
     font-family: 'Helvetica Neue';
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 9px;
     padding: 10px;
 }
 
  a {
     color: #666666;
-    cursor:pointer;
     text-decoration: none;
   }
 
-h3{
-    font-family: 'Avenir';
-    padding: 0px 100px;
-    color:#000;
-    display: flex;
-}
-
 .gallery {
- display: flex;
- flex-wrap: wrap;
+ display: grid;
 }
 
 .gallery-image {
@@ -56,17 +71,15 @@ h3{
  object-fit: cover;
 }
 
-@supports (display: grid) {
- .gallery {
+.gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
-  grid-gap: 0rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 1rem;
  }
-.gallery,
+
  .gallery-item {
-  margin: 50px;
+  margin: 5px;
  }
-}
 
 .img__wrap {
   position: relative;
@@ -95,41 +108,26 @@ h3{
   font-family: 'Avenir';
 }
 
+/* Social */
+
+.social {
+  margin: 5.125rem; /* 50px */
+  text-align: center;
+}
+
 .fa {
-  padding: 15px;
   font-size: 30px;
   width: 17px;
+  color: #fff;
   text-align: center;
   text-decoration: none;
+  background: #666;
+  padding: 15px;
   border-radius: 50%;
-  margin-bottom: 10em;
-  margin-top: 10em;
   margin-left: 1em;
-}
 
+}
 
 .fa:hover {
-    opacity: 0.7;
-}
-
-.fa-linkedin {
-  background: #666666;
-  color: white;
-  margin-left: 49em;
-
-}
-
-.fa-instagram {
-  background: #666666;
-  color: white;
-}
-
-.fa-dribbble {
-  background: #666666;
-  color: white;
-}
-
-.fa-behance {
-  background: #666666;
-  color: white;
+  opacity: 0.7;
 }
